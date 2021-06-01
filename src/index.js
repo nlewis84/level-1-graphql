@@ -51,5 +51,3 @@ render(
   </ApolloProvider>,
   document.getElementById("root")
 );
-
-// test
