@@ -27,6 +27,8 @@ render(
       <Link to={"/"}>
         <h1 className="App-title">GraphQL is GREAT!</h1>
       </Link>
+
+      <Link to={"/post/new"}>New Post</Link>
       <Switch>
         <Route exact path="/" component={Posts} />
         <Route exact path="/post/new" component={NewPost} />
